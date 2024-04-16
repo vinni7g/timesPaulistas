@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.index{
+    background-color: rgb(204, 204, 204);
+}
+.parteCima, .parteBaixo{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.time{
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(0,0,0);
+    padding: 50px;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(119, 117, 117);
+    transition: transform 0.3 ease;
+    position: relative;
+}
+.time:hover{
+    background: rgb(160, 160, 160);
+    transform: scale(1.10);
+}
+.link-time {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: inherit;
+    z-index: 1;
+}
+.nomeTime{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+footer{
+    text-align: center;
+}
+#corinthians {
+    background: url(https://s3.static.brasilescola.uol.com.br/be/2023/09/1-escudo-do-corinthians.jpg) center/cover no-repeat;
+}
+#saoPaulo{
+    background: url(https://img.estadao.com.br/resources/jpg/9/2/1487962260329.jpg) center/cover no-repeat;
+}
+#palmeiras{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq-yRfECsGOqDaFYOtPz8zyNS48R29bTISeeYo1is6jw&s) center/cover no-repeat;
+}
+
+#santos{
+    background: url(https://i.pinimg.com/564x/8e/28/9b/8e289b4d77f1eca7cc3b9ce66e43b5ec.jpg) center/cover no-repeat;
+}
