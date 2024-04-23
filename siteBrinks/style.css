@@ -17,7 +17,7 @@ body{
     border: 1px solid rgb(0,0,0);
     padding: 50px;
     text-align: center;
-    margin: 5px;
+    margin: 20px;
     background-color: rgb(119, 117, 117);
     transition: transform 0.3 ease;
     position: relative;
@@ -27,13 +27,11 @@ body{
     transform: scale(1.10);
 }
 .link-time {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-decoration: none;
-    color: inherit;
-    z-index: 1;
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    text-align: right;
+    text-decoration: none;  
 }
 .nomeTime{
     text-align: justify;
@@ -55,3 +53,4 @@ footer{
 #santos{
     background: url(https://i.pinimg.com/564x/8e/28/9b/8e289b4d77f1eca7cc3b9ce66e43b5ec.jpg) center/cover no-repeat;
 }
+
